@@ -1,0 +1,95 @@
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.875rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+@media (min-width: 640px) {
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+.blog-post {
+  max-width: 100%;
+  margin: auto;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+.blog-post h1 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.blog-post h2 {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.blog-post p {
+  margin-bottom: 1rem;
+}
+
+.blog-post img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto; /* Changed from 1rem 0 to 1rem auto */
+  display: block; /* Added to ensure centering works */
+}
+
+.blog-post figure {
+  margin: 1.5rem 0;
+  text-align: center; /* Added to center the figure and its contents */
+}
+
+.blog-post figcaption {
+  font-size: 0.875rem;
+  color: #888;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .blog-post {
+    padding: 2rem;
+  }
+}
+figcaption {
+  color: #888;
+  font-size: 0.75rem;
+  margin-right: auto;
+}
+@media (min-width: 640px) {
+  figcaption {
+    font-size: 0.875rem;
+  }
+}
+img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 1rem 0;
+}
+p {
+  margin-bottom: 1rem;
+}
+figure {
+  margin: 1.5rem auto;
+}
+@media (min-width: 640px) {
+  figure {
+    margin: 2rem auto;
+  }
+}
