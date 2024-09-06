@@ -2,8 +2,10 @@ import Link from "next/link";
 import Navbar from "../components/Navbar";
 import blogposts from "@/lib/blogposts";
 
+blogposts.sort((a, b) => new Date(b.date) - new Date(a.date));
+
 const BlogPost = ({ title, date, readTime, excerpt, id }) => (
-  <div className="mb-6 sm:mb-8 pb-6 sm:pb-8 border-b border-terminal-green last:border-b-0">
+  <div className="mb-2 sm:mb-2 pb-6 sm:pb-8 border-terminal-green last:border-b-0">
     <h3 className="text-base sm:text-lg font-bold mb-2">
       <Link href={`/blog/${id}`} className="hover:underline">
         {title}

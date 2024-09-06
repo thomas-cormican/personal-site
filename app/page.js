@@ -139,7 +139,7 @@ export default function Home() {
               desc="AI-driven image manipulation using deep learning techniques."
             />
             <ProjectLink
-              href="/blog/0"
+              href="/"
               title="This Website"
               desc="I worked really hard on it, trust me."
             />
