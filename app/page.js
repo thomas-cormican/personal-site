@@ -142,19 +142,19 @@ export default function Home() {
               href="https://oxycholy.com"
               title="Oxycholy"
               desc="Full-stack lead generation website with SEO optimization."
-              github="https://github.com/thomas-cormican/oxycholy"
+              github="https://github.com/tomoige/oxycholy"
             />
             <ProjectLink
               href="https://merge-e2d8c.web.app/"
               title="Merge"
               desc="Wordle-inspired word puzzle game built with React."
-              github="https://github.com/thomas-cormican/merge"
+              github="https://github.com/tomoige/merge"
             />
             <ProjectLink
               href="https://multitimer95.vercel.app/"
               title="Multitimer95"
               desc="Windows 95-inspired multi-timer web application."
-              github="https://github.com/thomas-cormican/multitimer95"
+              github="https://github.com/tomoige/multitimer95"
             />
           </ul>
         </Section>
