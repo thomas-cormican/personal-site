@@ -86,7 +86,7 @@ export default function Home() {
             className="text-blue-400 underline"
             href="https://www.youtube.com/watch?v=y9ygGm_rwpg"
           >
-            it's going to be a fine night tonight
+            it&apos;s going to be a fine night tonight
           </Link>
           <Image
             src="/aviator.jpg"
