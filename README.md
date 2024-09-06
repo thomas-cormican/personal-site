@@ -11,7 +11,6 @@ I'm a CS student at Maynooth University, passionate about web development and ma
 - Next.js
 - React
 - Tailwind CSS
-- GitHub Pages (for hosting)
 
 ## Local Development
 

@@ -139,6 +139,11 @@ export default function Home() {
               desc="AI-driven image manipulation using deep learning techniques."
             />
             <ProjectLink
+              href="/blog/0"
+              title="This Website"
+              desc="I worked really hard on it, trust me."
+            />
+            <ProjectLink
               href="https://oxycholy.com"
               title="Oxycholy"
               desc="Full-stack lead generation website with SEO optimization."
@@ -171,8 +176,14 @@ export default function Home() {
           </div>
         </Section>
       </main>
-      <footer className="border-t border-muted py-3 sm:py-4 text-center text-xs sm:text-sm text-muted">
-        &copy; 2024 Thomas Cormican. All rights reserved.
+      <footer className="flex flex-col items-center justify-center border-t border-muted py-3 sm:py-4 text-center text-xs sm:text-sm text-muted">
+        <Link
+          className="text-xl mb-2 w-fit hover:text-text"
+          href="https://github.com/tomoige"
+        >
+          <FiGithub />
+        </Link>
+        <div>&copy; 2024 Thomas Cormican. All rights reserved.</div>
       </footer>
     </div>
   );
