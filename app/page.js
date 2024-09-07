@@ -118,6 +118,11 @@ export default function Home() {
               title="Practical Deep Learning for Coders"
               institution="Fast.ai"
             />
+            <EducationItem
+              title="Kaggle Courses"
+              institution="Kaggle"
+              certificateLink="/kaggle.pdf"
+            />
           </ul>
         </Section>
 
@@ -142,6 +147,7 @@ export default function Home() {
               href="/"
               title="This Website"
               desc="I worked really hard on it, trust me."
+              github="https://github.com/tomoige/personal-site"
             />
             <ProjectLink
               href="https://oxycholy.com"

@@ -19,13 +19,13 @@ To run this project locally:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/thomas-cormican/thomas-cormican.github.io.git
+   git clone https://github.com/tomoige/personal-site.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd thomas-cormican.github.io
+   cd personal-site
    ```
 
 3. Install dependencies:
@@ -48,7 +48,7 @@ This site is automatically deployed to GitHub Pages using GitHub Actions. Any pu
 
 ## Contact
 
-Feel free to reach out to me at [your-email@example.com] or connect with me on [LinkedIn](your-linkedin-profile-url).
+Feel free to reach out to me at [thomascormican123@gmail.com].
 
 ## License
 
