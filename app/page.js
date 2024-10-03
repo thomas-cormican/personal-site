@@ -115,6 +115,11 @@ export default function Home() {
               certificateLink="https://www.credly.com/badges/5e215f55-c79a-4c9e-b6be-992511f7cd2f/public_url"
             />
             <EducationItem
+              title="CompTIA Network+"
+              institution="CompTIA"
+              certificateLink="https://www.credly.com/badges/b5a29352-8a87-4164-9e2e-d13ea1a4953e/public_url"
+            />
+            <EducationItem
               title="Practical Deep Learning for Coders"
               institution="Fast.ai"
             />
